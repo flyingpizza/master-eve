@@ -1,1 +1,1 @@
-adding new api changes 
+created a new  class "eveapihandler" which will be handling all the free api(s)
