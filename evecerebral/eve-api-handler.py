@@ -29,3 +29,5 @@ class EveUtil(object):
 
 
 if __name__ == '__main__':
+    obj = EveUtil()
+    obj.eve_system_jumps()
