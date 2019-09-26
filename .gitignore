@@ -4,6 +4,8 @@ evecerebral/evenv/
 
 evecerebral/.vscode/
 
+evenv/*
+
 evecerebral/
 
 evenv/bin/
