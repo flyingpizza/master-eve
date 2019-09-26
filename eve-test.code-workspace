@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"eve-site/bottle-bootstrap/app.not used": true,
+			"eve-site/bottle-bootstrap/readme.md": true
+		},
+		"explorerExclude.backup": null
+	}
+}
