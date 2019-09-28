@@ -1,1 +1,17 @@
 /evecerebral/.idea
+
+evecerebral/evenv/
+
+evecerebral/.vscode/
+
+evenv/*
+
+evecerebral/
+
+evenv/bin/
+
+evenv/include/python2.7
+
+evenv/lib/python2.7/
+
+evenv/local/
