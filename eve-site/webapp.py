@@ -5,7 +5,7 @@ from bottle import Bottle, run, \
 import os, sys
 
 
-dirname = os.path.dirname(sys.argv[0])
+dirname = os.path.dirname(sys.argv[0]) + '\\eve_web_fw\\'
 
 app = Bottle()
 debug(True)
@@ -24,7 +24,7 @@ def send_js(filename):
 def index():
     data = {"developer_name":"Ikram Shariff",
             "developer_organization":"spacegoat"}
-    return template('index', data = data)
+    return template('views//template//index', data = data)
 
 if __name__ == '__main__':
     run(app,host='localhost', port=8080, debug=True)
