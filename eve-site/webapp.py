@@ -24,7 +24,7 @@ def send_js(filename):
 def index():
     data = {"developer_name":"Ikram Shariff",
             "developer_organization":"spacegoat"}
-    return template('views//template//index', data = data)
+    return template('views//index', data = data)
 
 if __name__ == '__main__':
     run(app,host='localhost', port=8080, debug=True)
